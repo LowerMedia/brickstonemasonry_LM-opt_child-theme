@@ -1,0 +1,15 @@
+/*
+Theme Name:     Brick Stone Masonry Custom WordPress Theme
+Theme URI:      http://brickstonemasonryinc.com/
+Description:    Child theme for the LowerMedia One Page Theme
+Author:         Pete Lower
+Author URI:     http://lowermedia.net
+Template:       lowermedia_one_page_theme                             
+Version:        0.1.0
+*/
+
+/* Import Parent Styles (LowerMedia One Page Theme)*/
+@import url('../lowermedia_one_page_theme/style.css');
+
+/* =Start Here
+-------------------------------------------------------------- */
