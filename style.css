@@ -14,4 +14,26 @@ Version:        0.1.0
 /* =Start Here
 -------------------------------------------------------------- */
 
+h2 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 2em;
+}
+h3 {
+	font-size:2em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.light {
+	color:#f5f6f6;
+}
+.dark {
+	color:#626363;
+}
+p {
+	font-family: 'Bitter', serif;
+	font-weight:700;
+}
+
+#lm-opt-1.story {
+	height:500px;
+}
 
