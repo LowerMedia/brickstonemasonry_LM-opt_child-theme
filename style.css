@@ -33,7 +33,23 @@ p {
 	font-weight:700;
 }
 
-#lm-opt-1.story {
+.lm-opt-1.story {
 	height:500px;
 }
 
+.lm-wps-side {
+	z-index: 1000;
+}
+
+/*Floating LM WP Social Menu above all*/
+.lm-opt-1 {
+	height: 500px;
+}
+
+.lm-opt-4 {
+	height: 800px;
+}
+
+.navigation-main {
+	top: 20px !important;
+}
