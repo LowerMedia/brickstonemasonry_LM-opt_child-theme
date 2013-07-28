@@ -42,11 +42,11 @@ p {
 }
 
 /*Floating LM WP Social Menu above all*/
-.lm-opt-1 {
+#lm-opt-1 {
 	height: 500px;
 }
 
-.lm-opt-4 {
+#lm-opt-4 {
 	height: 800px;
 }
 
