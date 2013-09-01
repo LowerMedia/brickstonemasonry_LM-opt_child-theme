@@ -69,3 +69,7 @@ p {
 /* For IE 8*/
 	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
 }
+
+#lm-opt-3 #lm-opt-content {
+	width: 85%;
+}
