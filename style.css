@@ -63,25 +63,27 @@ color:white;
 }
 
 
-.lm-opt-1.story {
+.site-content .lm-opt-1.story {
 	height:500px;
 }
 
-.lm-wps-side {
+.site-content .lm-wps-side {
 	z-index: 1000;
 }
 
 /*Floating LM WP Social Menu above all*/
-#lm-opt-1 { height: 500px; }
+.site-content .lm-opt-1 { height: 500px; }
 
-#lm-opt-1,
-#lm-opt-3 { background-image: url('images/boston-artisan-masonry-architecture-background-bkgrnd_p2.png'); }
+.site-content .lm-opt-1,
+.site-content .lm-opt-3 { background: url('images/boston-artisan-masonry-architecture-background-bkgrnd_p2.png') 50% 0 repeat fixed; }
 
-#lm-opt-2 { background-image: url('images/brickstone_masonry_background.jpg'); }
+.site-content .lm-opt-2 { background-image: url('images/brickstone_masonry_background.jpg'); }
 
-#lm-opt-4 { background: url('images/binding_dark.png') 50% 0 repeat fixed; }
+.site-content .lm-opt-4 { 
+	height: 900px;
+	background: url('images/binding_dark.png') 50% 0 repeat fixed; 
+}
 
-#lm-opt-4 { height: 900px; }
 
 .galleryid-29 {
 	color: #404040;
@@ -99,6 +101,6 @@ color:white;
 	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
 }
 
-#lm-opt-3 #lm-opt-content {
+.lm-opt-3 .lm-opt-content {
 	width: 85%;
 }
