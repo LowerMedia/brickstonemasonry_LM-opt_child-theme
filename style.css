@@ -13,14 +13,22 @@ Version:        0.1.0
 
 /* =Start Here
 -------------------------------------------------------------- */
+body, li, p {
+font-family:"Scada", arial, sans-serif;
+}
 
 h2 {
 	font-family: 'Alex Brush', cursive;
 	font-size: 2em;
+	font-size:2em;
+	font-family:"Alex Brush", arial, sans-serif;
 }
 h3 {
 	font-size:2em;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-family:"Scada", arial, sans-serif;
+	font-size:24px;
+	color:white;
 }
 .light {
 	color:#f5f6f6;
@@ -31,30 +39,11 @@ h3 {
 p {
 	font-family: 'Bitter', serif;
 	font-weight:700;
+	color:white;
 }
-
-
-h2{ font-family:"Alex Brush", arial, sans-serif;}
-
-h2 {font-size:2em;}
-
-h3{ font-family:"Scada", arial, sans-serif;}
-
-h3 {
-font-size:24px;
-color:white;
-}
-
-p{ font-family:"Scada", arial, sans-serif;}
-
-li{ font-family:"Scada", arial, sans-serif;}
 
 a {
 text-decoration:none;
-color:white;
-}
-
-p{
 color:white;
 }
 
@@ -103,4 +92,64 @@ color:white;
 
 .lm-opt-3 .lm-opt-content {
 	width: 85%;
+}
+
+
+#site-navigation {
+	padding-left: 4%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 0 0 10px #000000;
+}
+
+.navigation-main {
+	padding-top: 0;
+}
+
+#site-navigation-sticky-wrapper {
+	margin-bottom: 0 !important;
+}
+
+.lm-wps-bkgrnd {
+	background: white;
+}
+
+.social-icons-list .custom_one {
+	background-image: url('http://brickstonemasonryinc.com/assets/sites/20/2014/03/thumbtack-favicon.png');
+}
+
+.gallery_p {
+	color: #585953;
+}
+
+#lm-opt-content {
+	z-index: 1;
+	position: relative;
+	overflow: inherit;
+	max-height: 100%;
+}
+
+.lm-opt-content {
+	max-height: 1500px;
+}
+
+#lm-opt-3 {
+	max-height: 100%;
+}
+
+.parallax-section {
+	height: auto;
+}
+
+.photograph {
+	min-height: auto;
+}
+
+.gallery_fb_container {
+}
+
+.fb_iframe_widget {
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 2%;
 }
