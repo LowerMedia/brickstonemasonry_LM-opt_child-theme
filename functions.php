@@ -15,13 +15,11 @@ add_action('wp_head', 'lowermedia_add_favicon');
 #
 */
 
-    function load_fonts() {
-        wp_dequeue_style( 'twentytwelve-fonts' );
-        wp_deregister_style( 'twentytwelve-fonts' );
-        wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,900|Kite+One|Signika:400,700|Open+Sans:400italic,700italic,400,700');
-        wp_enqueue_style( 'googleFonts');
-        wp_register_style('googleFontsTwo', 'http://fonts.googleapis.com/css?family=Alex+Brush:400|Scada:700|Scada:400&amp;subset=latin');
-        wp_enqueue_style( 'googleFontsTwo');
-    }
-    add_action('wp_head', 'load_fonts');
+    // function lowermedia_load_fonts() {
+    //     //wp_dequeue_style( 'open-sans' );
+    //     //wp_deregister_style( 'open-sans' );
+    //     wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Alex+Brush:400|Lato:400,900|Kite+One|Scada:700,400&amp;subset=latin|Signika:400,700|Open+Sans:400italic,700italic,400,700');
+    //     wp_enqueue_style( 'googleFonts');
+    // }
+    // add_action('wp_print_styles', 'lowermedia_load_fonts');
 ?>
