@@ -33,6 +33,36 @@ p {
 	font-weight:700;
 }
 
+
+h2{ font-family:"Alex Brush", arial, sans-serif;}
+
+h2 {font-size:2em;}
+
+h3{ font-family:"Scada", arial, sans-serif;}
+
+h3 {
+font-size:24px;
+color:white;
+}
+
+p{ font-family:"Scada", arial, sans-serif;}
+
+li{ font-family:"Scada", arial, sans-serif;}
+
+a {
+text-decoration:none;
+color:white;
+}
+
+p{
+color:white;
+}
+
+li{
+color:white;
+}
+
+
 .lm-opt-1.story {
 	height:500px;
 }
@@ -42,13 +72,16 @@ p {
 }
 
 /*Floating LM WP Social Menu above all*/
-#lm-opt-1 {
-	height: 500px;
-}
+#lm-opt-1 { height: 500px; }
 
-#lm-opt-4 {
-	height: 900px;
-}
+#lm-opt-1,
+#lm-opt-3 { background-image: url('images/boston-artisan-masonry-architecture-background-bkgrnd_p2.png'); }
+
+#lm-opt-2 { background-image: url('images/brickstone_masonry_background.jpg'); }
+
+#lm-opt-4 { background: url('images/binding_dark.png') 50% 0 repeat fixed; }
+
+#lm-opt-4 { height: 900px; }
 
 .galleryid-29 {
 	color: #404040;
